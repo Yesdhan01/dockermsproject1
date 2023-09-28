@@ -3,27 +3,27 @@ services:
   movies:
     image: yesdhan099/paytm4:latest
     ports:
-      - "91:80"
+      - "95:80"
     deploy:
       replicas: 3
 
   train:
     image: yesdhan099/paytm4train:v1
     ports:
-      - "92:80"
+      - "96:80"
     deploy:
       replicas: 3
 
   dth:
     image: yesdhan099/paytm4dth:v1
     ports:
-      - "93:80"
+      - "97:80"
     deploy:
       replicas: 3
 
   recharge:
     image: yesdhan099/paytm4recharge:latest
     ports:
-      - "94:80"
+      - "98:80"
     deploy:
       replicas: 3
