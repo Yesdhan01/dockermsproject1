@@ -10,7 +10,7 @@ services:
   train:
     image: yesdhan099/paytm4train:v1
     ports:
-      - "96:80"
+      - "86:80"
     deploy:
       replicas: 3
 
